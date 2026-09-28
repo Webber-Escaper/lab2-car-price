@@ -1,0 +1,24 @@
+*.csv
+*.pkl
+.venv*/
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+mlflow/mlartifacts/
+mlflow/mlruns.db*
+mlflow/server.log
+mlflow/server.pid
+catboost_info/
+research/execution.log
+mlruns/
+
+# Local settings and separate backups
+.env
+.env.*
+.vscode/
+*.zip
+*.tar.gz
+mlflow/mlruns/
